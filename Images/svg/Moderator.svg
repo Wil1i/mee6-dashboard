@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>plugin-icon/moderator</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="13" y="13" width="6" height="16"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.209663723 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="1.98748722" cy="1.98748722" r="1.98748722"></circle>
+        <path d="M13,29 L19,29 L19,31.0010434 C19,31.5527519 18.7292328,32.3610229 18.3946075,32.8071899 L18.8553925,32.1928101 C18.5210434,32.6386088 17.8080635,33 17.2578316,33 L16.75,33 L16.75,33 C15.9215729,33 14.3601074,33 13.75,33 L14.7421684,33 C14.1942089,33 13.4792328,32.6389771 13.1446075,32.1928101 L13.6053925,32.8071899 C13.2710434,32.3613912 13,31.5573397 13,31.0010434 L13,29 Z" id="path-5"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="2" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.153900589 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="plugin-icon/moderator">
+            <g id="icon-bg/ok">
+                <rect id="Rectangle-19" x="0" y="0" width="50" height="50" rx="4"></rect>
+            </g>
+            <g id="Group-2" transform="translate(10.000000, 9.000000)">
+                <g id="Rectangle-28">
+                    <use fill="#AF7A4A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle" fill="#FFCA36" x="4" y="-8.8817842e-16" width="23" height="15"></rect>
+                <g id="Combined-Shape" transform="translate(14.000000, 8.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <path d="M0.00028540312,2.04771411 C0.0066554531,1.91360529 0.118900224,1.80680656 0.260809175,1.80680656 L3.71416527,1.80680656 C3.85392356,1.80680656 3.96800681,1.91726953 3.97466712,2.04771411 L3.97497444,4.33633575 L0,4.33633575 L0,2.04771411 Z" fill="#000000" mask="url(#mask-4)"></path>
+                    <path d="M1.98748722,3.11941744 C2.11042468,3.05060328 2.25236117,3.01134427 2.40352821,3.01134427 C2.87226531,3.01134427 3.25225181,3.38881544 3.25225181,3.85444972 C3.25225181,4.32008399 2.87226531,4.69755516 2.40352821,4.69755516 C2.25236117,4.69755516 2.11042468,4.65829616 1.98748722,4.58948199 C1.86454976,4.65829616 1.72261327,4.69755516 1.57144624,4.69755516 C1.10270913,4.69755516 0.722722625,4.32008399 0.722722625,3.85444972 C0.722722625,3.38881544 1.10270913,3.01134427 1.57144624,3.01134427 C1.72261327,3.01134427 1.86454976,3.05060328 1.98748722,3.11941744 Z" fill="#F04747" mask="url(#mask-4)"></path>
+                </g>
+                <path d="M27,2.54847658 C27,1.99992234 27.4130044,1.39465192 27.9277344,1.19452088 L31,0 L31,15 L27.9277344,13.8054791 C27.4153608,13.6062643 27,12.9932032 27,12.4515234 L27,2.54847658 Z" id="Rectangle-Copy" fill="#FFDE82" transform="translate(29.000000, 7.500000) scale(-1, 1) translate(-29.000000, -7.500000) "></path>
+                <path d="M0,2.54847658 C0,1.99992234 0.413004398,1.39465192 0.927734375,1.19452088 L4,0 L4,15 L0.927734375,13.8054791 C0.415360828,13.6062643 0,12.9932032 0,12.4515234 L0,2.54847658 Z" id="Rectangle-Copy-2" fill="#D8AB2E"></path>
+                <g id="Rectangle-29">
+                    <use fill="#FFCA37" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                </g>
+                <rect id="Rectangle-30" fill="#000000" x="9" y="4" width="3" height="3" rx="1.5"></rect>
+                <rect id="Rectangle-30-Copy" fill="#000000" x="20" y="4" width="3" height="3" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

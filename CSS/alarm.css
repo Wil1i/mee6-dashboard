@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+#alarm{
+    position: fixed;
+    width: 245px;
+    height: 95px;
+    background-color: rgb(43, 47, 51);
+    bottom: 20px;
+    left: 20px;
+    border-radius: 3px;
+    box-shadow: rgb(59, 64, 70) 0 0 3px 3px ;
+    cursor: pointer;
+}
+
+#alarm-coming-soon{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#alarm-coming-soon div{
+    color: white;
+    opacity: 0.5;
+    font-family: 'Arimo';
+    text-align: center;
+    user-select: none;
+}
+
+#alarm-coming-soon pre{
+    color: white;
+    opacity: 0.7;
+    font-family: 'Arimo';
+    margin-left: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    user-select: none;
+}
+
+#alarm-timer{
+    width: 100%;
+    height: 5px;
+    background-color: #00cee0;
+    border-radius: 1px;
+    transition: 10s width;
+}

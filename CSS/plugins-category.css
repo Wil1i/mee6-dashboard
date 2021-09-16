@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+#plugin-items{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+}
+
+.sub-plugin-items{
+    user-select: none;
+    margin: 10px;
+    background-color: rgb(62, 66, 70);
+    width: 300px;
+    padding: 25px 0;
+    padding-left: 12px;
+    padding-right: 35px;
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.125) 0px 0px 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.sub-plugin-items img {
+    user-select: none;
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sub-plugin-text-1{
+    user-select: none;
+    margin-bottom: 8px;
+    display: inline-block;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sub-plugin-text-2{
+    user-select: none;
+    color: rgba(255, 255, 255, 0.62);
+    font-family: 'Arimo';
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.plugin-off{
+    opacity: 0.3;
+    transition: .2s;
+}
+
+.plugin-off:hover{
+    opacity: 1;
+}
+
+.new-plugin{
+    margin-left: 5px;
+    user-select: none;
+}

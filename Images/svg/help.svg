@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>plugin-icon/help</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="26.5" cy="25.5" r="16.5"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="33" height="33" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="plugin-icon/help">
+            <g id="Group-2">
+                <g id="icon-bg/ok">
+                    <rect id="Rectangle-19" x="0" y="0" width="50" height="50" rx="4"></rect>
+                </g>
+            </g>
+            <use id="Oval" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="14" xlink:href="#path-1"></use>
+            <path d="M10,23 L17,24 C17,24 17.4547447,21.9087588 18,21 C18.5452553,20.0912412 22,17 22,17 L17,12 C17,12 13,16 12,18 C11,20 10,23 10,23 Z" id="Path-7" fill="#49C1E8"></path>
+            <path d="M31.9507356,24.9507356 L38.9507356,25.9507356 C38.9507356,25.9507356 39.4054803,23.8594944 39.9507356,22.9507356 C40.4959909,22.0419767 43.9507356,18.9507356 43.9507356,18.9507356 L38.9507356,13.9507356 C38.9507356,13.9507356 35.0115046,17.2561429 34.0115046,19.2561429 C33.0115046,21.2561429 31.9507356,24.9507356 31.9507356,24.9507356 Z" id="Path-7-Copy" fill="#49C1E8" transform="translate(37.950736, 19.950736) scale(-1, 1) rotate(-10.000000) translate(-37.950736, -19.950736) "></path>
+            <path d="M19.2292033,42.9246106 L26.2292033,43.9246106 C26.2292033,43.9246106 26.7893045,41.383235 27.8106303,40.2489378 C28.831956,39.1146407 32.2516233,36.811192 32.2516233,36.811192 L27.0496095,32.1272777 C27.0496095,32.1272777 24.2990729,33.6875816 22.2916811,35.9170161 C20.2842892,38.1464505 19.2292033,42.9246106 19.2292033,42.9246106 Z" id="Path-7-Copy-2" fill="#49C1E8" transform="translate(25.740413, 38.025944) scale(-1, 1) rotate(-132.000000) translate(-25.740413, -38.025944) "></path>
+        </g>
+    </g>
+</svg>

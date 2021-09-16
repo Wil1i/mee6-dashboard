@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Williams - Dashboard</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./CSS/index_style.css">
+        <link rel="stylesheet" href="./CSS/header.css">
+        <link rel="stylesheet" href="./CSS/plugins-category.css">
+        <link rel="stylesheet" href="./CSS/alarm.css">
+        <script src="./JS/script.js" defer></script>
+
+    </head>
+    <body>
+
+        <div id="alarm" style="display: none;">
+
+            <div id="alarm-coming-soon">
+                <div id="timer-title"></div>
+                <pre id="timer-description"></pre>
+            </div>
+
+            <div id="alarm-timer"></div>
+
+        </div>
+
+        <div id="ann">
+            Server status
+            <span>restricted</span>
+            Unlock all features now
+        </div>
+
+        <!-- Header of dashboard, [Page shortcuts and...] -->
+        <header id="header">
+
+            <div id="header-left">
+                
+                <a id="logo-text">Willi</a>
+
+                <nav id="subtitle">
+                    <ul id="ul-header">
+                        <li class="li-subtitle">
+                            <a class="subtitle">PLUGINS</a>
+                            <a class="subtitle">LEADERBOARD</a>
+                            <a class="subtitle">SETTINGS</a>
+                            <a class="subtitle">CUSTOMIZE
+                                <div class="new new-top">NEW</div>
+                            </a>
+                            <a href="subtitle" class="subtitle" id="header-upgrade">UPGRADE</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div id="header-right">
+
+                <div id="header-servers">
+                   
+                    <div id="header-servers-left-side">
+                        <img src="./Images/logo.jpg" id="header-servers-icon">
+                        <div id="header-servers-svname">𝐀𝐫𝐢𝐝𝐨𝐫𝐫𝐢</div>
+                    </div>
+
+                    <div id="header-servers-right-side">
+                        <div id="header-servers-arrow">
+                            <img src="./Images/svg/arrows.svg" id="header-servers-arrow-icon">
+                        </div>
+                    </div>
+
+                    <ul id="servershower" style="display: none;">
+
+                        <li class="svshower">
+
+                            <div class="svshower-div">
+
+                                <img src="./Images/logo.jpg" class="img-svshower">
+                                <span>𝐀𝐫𝐢𝐝𝐨𝐫𝐫𝐢</span>
+
+                            </div>
+
+                        </li>
+                        
+                        <li class="svshower">
+
+                            <div class="svshower-div">
+
+                                <img src="https://cdn.discordapp.com/icons/707241863429488730/50a4bba20d4fc5db93bda25b4dba73f2.jpg" class="img-svshower">
+                                <span>[King Ezz]</span>
+
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div id="user-info">
+
+                    <div id="user-info-top">
+                        <div id="user-info-left-side">
+
+                            <img src="./Images/profile-image.png" id="user-info-profile">
+                            <span>Williams</span>
+
+                        </div>
+
+                        <div id="user-info-right-side">
+                            <img src="./Images/svg/arrows.svg" id="user-info-arrow">
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <div id="plugin-items">
+
+            <div class="sub-plugin-items">
+                
+                <img src="./Images/svg/jam.svg">
+                <div class="sub-plugin-text-1">Levels</div>
+                <div class="sub-plugin-text-2">Let your users gain XP and levels by participating in the chat!</div>
+
+            </div>
+
+            <div class="sub-plugin-items">
+                
+                <img src="./Images/svg/mic.svg">
+                <div class="sub-plugin-text-1">Record</div>
+                <div class="sub-plugin-text-2">Record your voice as a nice mp3 file that you can save</div>
+
+            </div>
+
+            <div class="sub-plugin-items">
+                
+                <img src="./Images/svg/twitch.svg">
+                <div class="sub-plugin-text-1">Twitch</div>
+                <div class="sub-plugin-text-2">Notify people when your favorite Twitch streamers go live</div>
+
+            </div>
+
+            <div class="sub-plugin-items">
+                
+                <img src="./Images/svg/help.svg">
+                <div class="sub-plugin-text-1">Help</div>
+                <div class="sub-plugin-text-2">Enables the !help command for your server</div>
+
+            </div>
+
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/custom command.svg">
+                <div class="sub-plugin-text-1">Custom Commands</div>
+                <div class="sub-plugin-text-2">Add awesome custom commands to your server</div>
+
+            </div>
+
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/reaction roles.svg">
+                <div class="sub-plugin-text-1">Reaction Roles</div>
+                <div class="sub-plugin-text-2">Let your members get roles by reacting to a message</div>
+
+            </div>
+            
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/Moderator.svg">
+                <div class="sub-plugin-text-1">Moderator</div>
+                <div class="sub-plugin-text-2">Power up your moderation with cool commands and automations!</div>
+
+            </div>
+
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/Welcome.svg">
+                <div class="sub-plugin-text-1">Welcome</div>
+                <div class="sub-plugin-text-2">Give new users a warm welcome!</div>
+
+            </div>
+
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/Timers.svg">
+                <div class="sub-plugin-text-1">Timers</div>
+                <div class="sub-plugin-text-2">Send custom messages on repeat every few minutes/hours</div>
+
+            </div>
+
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/embeds.svg">
+                <div class="sub-plugin-text-1">Embeds</div>
+                <div class="new new-plugin">NEW</div>
+                <div class="sub-plugin-text-2">end and manage rich embed messages</div>
+
+            </div>
+
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/searching.svg">
+                <div class="sub-plugin-text-1">Search Anything</div>
+                <div class="sub-plugin-text-2">Search the internet for whatever you want!</div>
+
+            </div>
+
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/music.png">
+                <div class="sub-plugin-text-1">Music Quiz</div>
+                <div class="sub-plugin-text-2">Guess the name of the artist and song to gain points</div>
+
+            </div>
+
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/song.svg">
+                <div class="sub-plugin-text-1">Music</div>
+                <div class="sub-plugin-text-2">Listen to music directly on Discord</div>
+
+            </div>
+
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/twitter.svg">
+                <div class="sub-plugin-text-1">Twitter</div>
+                <div class="sub-plugin-text-2">Get notified when your favorite Twitter accounts post a tweet</div>
+
+            </div>
+
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/youtube.svg">
+                <div class="sub-plugin-text-1">YouTube</div>
+                <div class="sub-plugin-text-2">Get notified when your favorite YouTubers post a video</div>
+
+            </div>
+
+            <div class="sub-plugin-items plugin-off">
+                
+                <img src="./Images/svg/reddit.svg">
+                <div class="sub-plugin-text-1">Reddit</div>
+                <div class="sub-plugin-text-2">Get your favorite subreddits posted directly to your server</div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        
+        <ul id="user-info-list">
+
+            <li class="user-info-list-li">
+                <span class="user-info-list-span">My Servers</span>
+            </li>
+            <li class="user-info-list-li"  id="rank-card">
+                <span class="user-info-list-span">Edit my personal rank card</span>
+            </li>
+            <li class="user-info-list-li" id="user-info-billing">
+                <span class="user-info-list-span">Billing</span>
+
+                <div id="billing-list" style="display: none;">
+                    <div id="billing-list-donate">
+                        <a href="https://idpay.ir/delta-bot">Donation Link</a>
+                    </div>
+                    <div id="billing-list-sub">
+                        <a>Buy Subscribe</a>
+                    </div>
+                </div>
+
+            </li>
+            <li class="user-info-list-li"  id="lang-selection">
+                <span class="user-info-list-span">Language</span>
+
+                <ul id="language-shower" style="display: none;">
+
+                    <li id="lang-US">
+                        <div>
+                            <img src="./Images/flags/US.png">
+                            <span>English</span>
+                        </div>
+                    </li>
+
+                    <li id="lang-persian">
+                        <div>
+                            <img src="./Images/flags/Iran.png">
+                            <span>Persian</span>
+                        </div>
+                    </li>
+
+                    <li id="lang-s">
+                        <div>
+                            <img src="./Images/flags/Tukish.png">
+                            <span>Turkish</span>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </li>
+            <li class="user-info-list-li">
+                <span class="user-info-list-span logout-user-info">Logout</span>
+            </li>
+
+        </ul>
+
+    </body>
+</html>
